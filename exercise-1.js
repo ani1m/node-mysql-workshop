@@ -19,14 +19,20 @@ connection.then(function(conn) {
         // instantiate 
         var table = new Table({
             head: ['DATABASES'],
-            colWidths: [ 100]
+            colWidths: [ 25]
         });
         databases.forEach((el) => {
-         
+            
+          // table is an Array, so you can `push`,
             table.push([el.Database])
         })
-        // table is an Array, so you can `push`, `unshift`, `splice` and friends 
+        
         console.log(table.toString());
 
     });
     
+
+
+    
+
+

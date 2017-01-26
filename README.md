@@ -35,7 +35,7 @@ Before starting the exercises, import the file called `data.sql` in MySQL. This 
 ## Exercise 4: More about joins...
 1. Notice that for the previous exercise, Account #5 did not appear in the listing. Don't come back here until you have re-checked the previous exercise and noticed for yourself that Account #5 is missing.
 2. The reason for this is because Account #5 does not have any AddressBook, so doing the JOIN left it out.
-3. [Read and **understand** this article on SQL JOINs](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/), more specifically about the `LEFT JOIN`.
+3. [Read and **understand** this article on SQL JOINs](no, more specifically about the `LEFT JOIN`.
 4. Based on your new understanding, create a similar program to Exercise #4.
 5. The only difference, if an account does not have any address book, print it like this:
 ```
